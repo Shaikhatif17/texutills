@@ -53,13 +53,52 @@ function NavBar(props) {
               Enable dark mode
               </label>
             </div>
+            <div className={`"form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
+              <input
+                class="form-check-input"
+                onClick={props.toggleMode}
+                
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+               />
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+              Enable dark mode
+              </label>
+            </div>
+            <div className={`"form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
+              <input
+                class="form-check-input"
+                onClick={props.toggleMode}
+                
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+               />
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+              Enable dark mode
+              </label>
+            </div>
+            <div className={`"form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
+              <input
+                class="form-check-input"
+                onClick={props.toggleMode}
+                
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+               />
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+              Enable dark mode
+              </label>
+            </div>
           </div>
         </div>
       </nav>
     </div>
   );
 }
-console.log('hi')
+
 NavBar.defaultProps = {
   title: "textUtilsS",
   aboutText: "text",
