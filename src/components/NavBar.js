@@ -59,7 +59,7 @@ function NavBar(props) {
     </div>
   );
 }
-
+console.log('hi')
 NavBar.defaultProps = {
   title: "textUtilsS",
   aboutText: "text",
